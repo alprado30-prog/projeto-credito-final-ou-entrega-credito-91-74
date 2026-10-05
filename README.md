@@ -20,7 +20,7 @@ Prever risco de crédito usando Machine Learning
 
 ## Link do projeto
 Projeto desenvolvido no Google Colab
-## 10 - Veredito de Negócios (Qual modelo vai pra produção?)
+## - Veredito de Negócios (Qual modelo vai pra produção?)
 
 Após analisar a Matriz de Confusão dos 3 modelos:
 
