@@ -20,3 +20,14 @@ Prever risco de crédito usando Machine Learning
 
 ## Link do projeto
 Projeto desenvolvido no Google Colab
+## 10 - Veredito de Negócios (Qual modelo vai pra produção?)
+
+Após analisar a Matriz de Confusão dos 3 modelos:
+
+- **KNN (81%):** Teve muitos Falsos Negativos - liberaria crédito pra quem não vai pagar
+- **Árvore (88%):** Equilibrada, mas menor precisão
+- **RandomForest (91,74%):** Menor número de Falsos Positivos e Falsos Negativos
+
+**DECISÃO:** O modelo **RandomForest com 91,74%** deve ser colocado em produção.
+
+**Justificativa Financeira:** Ele erra menos ao negar crédito pra bom pagador (Falso Positivo) e erra menos ao liberar crédito pra mau pagador (Falso Negativo), protegendo o lucro da empresa e mantendo clientes bons. É o modelo mais seguro financeiramente e operacionalmente.
