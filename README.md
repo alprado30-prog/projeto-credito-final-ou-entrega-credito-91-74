@@ -1,7 +1,7 @@
 # Projeto de Risco de Crédito - 91,74% de Acurácia
 
 **Aluna:** Edna Aparecida Prado
-**Curso:** Programação com IA - SENAI
+**Curso:** Machine Learning e Visão Computacional [T3]- SENAI
 
 ## Objetivo
 Prever risco de crédito usando Machine Learning
